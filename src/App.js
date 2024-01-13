@@ -58,7 +58,7 @@ function App() {
       </div>
       <form onSubmit={handleSubmit} className='' method="post">
         <Editor
-        className='border-2 m-1 mx-4 shadow-xl'
+        className='border-2 m-1 mx-4 h-52 shadow-xl'
           value={inputText}
           onValueChange={code => setInputText(code)}
           highlight={code => highlight(code, languages.js)}
